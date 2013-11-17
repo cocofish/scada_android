@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+        >
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="身高（cm）"
+            android:id="@+id/textView_height" android:layout_gravity="left|center_vertical"/>
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:id="@+id/editText_height" android:layout_gravity="left|center_vertical" android:width="@dimen/heightSize"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="体重（kg）"
+            android:id="@+id/textView_weight" android:layout_gravity="left|center_vertical"/>
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:id="@+id/editText_weight" android:layout_gravity="left|center_vertical" android:width="@dimen/heightSize"/>
+    <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="计算BMI"
+            android:id="@+id/btn_compute"/>
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="65dp"
+            android:id="@+id/computeResult" android:layout_gravity="left|center_vertical" android:editable="true"/>
+</LinearLayout>
+
